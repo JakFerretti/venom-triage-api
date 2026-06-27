@@ -23,11 +23,9 @@ To demonstrate a complete MLOps workflow, this project is split into three core 
 The pipeline decouples model training from real-time inference, encapsulating the production artifacts into a portable container:
 
 [ Kaggle Notebook (Polars + LightGBM) ]
-│
-▼ (Exports serialized artifacts)
+──> (Exports serialized artifacts)
 venom_triage_pipeline.pkl & label_encoder_target.pkl
-│
-▼ (Packaged inside)
+──> (Packaged inside)
 [ Docker Container (FastAPI) ] ──> Live API (/predict)
 
 ## 🚀 How to Run Locally (Docker)
