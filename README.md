@@ -27,12 +27,3 @@ The pipeline decouples model training from real-time inference, encapsulating th
 venom_triage_pipeline.pkl & label_encoder_target.pkl
 ──> (Packaged inside)
 [ Docker Container (FastAPI) ] ──> Live API (/predict)
-
-## 🚀 How to Run Locally (Docker)
-
-If you want to pull this repository and run the inference service on your local machine using Docker, follow these steps:
-
-### 1. Clone the repository
-
-git clone [https://github.com/JackLittleIron/venom-triage-api.git](https://github.com/JackLittleIron/venom-triage-api.git)
-cd venom-triage-api
